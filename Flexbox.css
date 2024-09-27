@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.top-bar {
+  background-color: #ccc;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.content-large {
+  background-color: gray;
+  height: 300px;
+  width: 70%;
+}
+
+.sidebar {
+  background-color: gray;
+  height: 300px;
+  width: 28%;
+}
+
+.bottom-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.grid-item {
+  background-color: gray;
+  width: 22%;
+  height: 150px;
+  margin: 10px 1%;
+  display: flex;            /* Enable flex on grid-item */
+  flex-direction: column;  /* Arrange children vertically */
+  justify-content: center;  /* Center the paragraph vertically */
+  align-items: center;      /* Center the paragraph horizontally */
+  text-align: center;      /* Center the text */
+}
+
+/* Paragraph inside grid-item */
+.below-grid-item {
+  margin: 5px 0; /* Adjust margin as needed */
+  color: #333;
+}
+
+.sidebar-below {
+  display: flex;
+  flex-direction: column;
+  width: 28%;
+  margin-left: 2%;
+}
+
+.text-block {
+  background-color: gray;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph below each text block */
+.below-text-block {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
